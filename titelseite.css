@@ -2155,3 +2155,10 @@ footer a { font-weight: 800; }
 @media (max-width: 520px) {
   .bike-spec-card dl > div { grid-template-columns: 1fr; gap: .15rem; }
 }
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
