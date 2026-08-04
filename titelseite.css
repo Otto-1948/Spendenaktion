@@ -1,5 +1,8 @@
 /*titelseite.css*/
 
+
+
+
 body {
   background-color: rgb(230, 231, 236);
 }
@@ -360,10 +363,11 @@ body {
 }
 
 .tabelle222 {
-  border-top-left-radius: 20px;
   padding-left: 20px;
-  min-width: 760px;
 }
+
+
+
 
 
 .tabelle {
@@ -481,7 +485,6 @@ body {
   line-height: 1.55;
 }
 
-html { scroll-behavior: smooth; }
 
 
 
@@ -615,13 +618,15 @@ body {
 
 
 .b1- {
+  width: 1000px;
   color: white;
   background-color: rgba(18, 53, 85);
   border-top-left-radius: 20px;
-  padding-right: 1000px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
+  min-width: 350px;
+  max-width: 1000px;
 }
 
 .b1-1 {
@@ -669,8 +674,10 @@ body {
 .unterstützer {
   font-size: 20px;
   display: flex;
+  flex-wrap: wrap;
   gap: 50px;
 }
+
 
 .roter-kasten5 {
   background-color: rgba(225, 241, 241);
@@ -692,7 +699,6 @@ body {
   line-height: 1.55;
 }
 
-html { scroll-behavior: smooth; }
 
 .zentrieren {
   margin-left: auto;
@@ -756,8 +762,7 @@ body {
 }
 
 .fahrrad1 {
-  margin-left: 650px;
-  margin-bottom: 50px;
+  margin-inline: auto;
 }
 
 .fahrrad {
@@ -910,8 +915,6 @@ body {
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   line-height: 1.55;
 }
-
-html { scroll-behavior: smooth; }
 
 
 
@@ -1149,8 +1152,6 @@ body {
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   line-height: 1.55;
 }
-
-html { scroll-behavior: smooth; }
 
 img { display: block; max-width: 100%; }
 
