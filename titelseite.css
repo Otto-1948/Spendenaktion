@@ -761,11 +761,8 @@ body {
   padding: 4px 20px; 
 }
 
-.fahrrad1 {
-  margin-inline: auto;
-}
-
 .fahrrad {
+  margin-inline: auto;
   max-width: 500px;
   max-height: 500px;
 }
