@@ -342,8 +342,8 @@ body {
 
 .dokumment {
   max-width: 1000px;
-  max-height: auto;
-  min-width: 480px;
+  max-height: 500px;
+  min-width: 450px;
   border: 8px solid white;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   border-radius: 8px;
