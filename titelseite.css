@@ -890,7 +890,7 @@ body {
 }
 
 .anleitung-box {
-  margin-left: 300px;
+  margin-inline: auto;
 }
 
 .anleitung {
