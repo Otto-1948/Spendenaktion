@@ -344,7 +344,7 @@ body {
   max-width: 1000px;
   max-height: 1000px;
   min-width: 450px;
-  min-height: 400px;
+  min-height: 200px;
   border: 8px solid white;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   border-radius: 8px;
