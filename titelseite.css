@@ -2155,3 +2155,7 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.aktuell {
+  flex-wrap: wrap;
+}
