@@ -2159,3 +2159,9 @@ img {
 .aktuell {
   flex-wrap: wrap;
 }
+
+.jetzt-gehts-los {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
