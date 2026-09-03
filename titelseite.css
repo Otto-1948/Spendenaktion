@@ -905,6 +905,10 @@ body {
   max-height: auto;
 }
 
+.brief {
+  font-size: 25px;
+}
+
 
 
 /*nicht von mir*/
@@ -2178,13 +2182,3 @@ img {
   font-size: 30px;
 }
 
-.eilmeldung {
-  font-size: 30px;
-  background-color: rgba(251, 232, 234);
-  border: solid rgba(206, 33, 34) 5px;
-  margin-bottom: 50px;
-}
-
-.brief {
-  font-size: 25px;
-}
