@@ -819,12 +819,16 @@ body {
 }
 
 .tabellen-nebeneinander {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
+
+
 .zeile0 {
+  border-collapse: collapse;
   background-color: rgba(18, 53, 85);
   color: white;
   font-weight: bolder;
@@ -897,8 +901,8 @@ body {
 
 .anleitung {
   margin-top: 40px;
-  max-width: 1200px;
-  max-height: 1200px;
+  max-width: auto;
+  max-height: auto;
 }
 
 
@@ -2160,8 +2164,23 @@ img {
   flex-wrap: wrap;
 }
 
+.aktuell {
+  font-size: 30px;
+}
+
 .jetzt-gehts-los {
   text-align: center;
   font-size: 40px;
   font-weight: bolder;
+}
+
+.jetzt-gehts-los2 {
+  font-size: 30px;
+}
+
+.eilmeldung {
+  font-size: 30px;
+  background-color: rgba(251, 232, 234);
+  border: solid rgba(206, 33, 34) 5px;
+  margin-bottom: 50px;
 }
