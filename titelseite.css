@@ -2184,3 +2184,7 @@ img {
   border: solid rgba(206, 33, 34) 5px;
   margin-bottom: 50px;
 }
+
+.brief {
+  font-size: 25px;
+}
