@@ -2182,3 +2182,10 @@ img {
   font-size: 30px;
 }
 
+.bilder-unten {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  gap: 20px;
+}
+
