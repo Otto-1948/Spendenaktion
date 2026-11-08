@@ -2183,10 +2183,11 @@ img {
 }
 
 .bilder-unten {
-  width: 500px;
-  height: 300px;
+  max-height: 300px;
+  max-width: 200px;
   display: flex;
-  gap: 100px;
+  padding-top: 20px;
+  
 }
 
 .schrift-tabelle {
@@ -2194,3 +2195,9 @@ img {
   font-size: 30px;
   font-weight: bolder;
 }
+
+.zettel {
+  min-height: 300px;
+  min-width: 200px;
+}
+
